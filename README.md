@@ -1,10 +1,8 @@
-# Simple React Snippets with Typescript
+# Reactty Snippets
 
 The essential collection of React Snippets and commands.
 
 ## Features
-
-Only what you need and nothing more. **No Redux. No React Native.**
 
 Simply, simple React snippets.
 
@@ -14,9 +12,16 @@ that work the way that you would expect, not just a copy of the documentation.
 
 ## Snippets
 
-| Snippet | Renders      |
-| ------- | ------------ |
-| `imr`   | Import React |
+| Snippet | Renders                               |
+| ------- | ------------------------------------- |
+| `imr`   | Import React                          |
+| `imrn`  | Import React end React-Native         |
+| `imrs`  | Import React, { useState }            |
+| `imrse` | Import React, { useState, useEffect } |
+| `fcwi`  | Import React, { useState, useEffect } |
+| `fc`    | Function Syntax Component             |
+| `uef`   | useEffect Hook                        |
+| `usf`   | useState Hook                         |
 
 ## Full Expansions
 
