@@ -4,7 +4,7 @@
     "description": "Simples snippets for react with typescript",
     "version": "0.0.4",
     "publisher": "ReactySnippets",
-    "icon": "images/react-logo.png",
+    "icon": "images/reactty.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/Victorcassiano/reactty-snippets.git"
