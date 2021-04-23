@@ -1,8 +1,10 @@
 # Change Log
 
-All notable changes to the "reactty-snippets" extension will be documented in this file.
+## [0.0.3] 2021-04-23
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+### Added:
+
+- New Snippets
 
 ## [Unreleased]
 
