@@ -19,6 +19,7 @@ that work the way that you would expect, not just a copy of the documentation.
 | `imrs`  | Import React, { useState }            |
 | `imrse` | Import React, { useState, useEffect } |
 | `fcwi`  | Function Component with Interface     |
+| `rcp`   | Create page                           |
 | `fc`    | Function Syntax Component             |
 | `uef`   | useEffect Hook                        |
 | `usf`   | useState Hook                         |
@@ -62,6 +63,18 @@ const Component: React.FC<ComponentProps> = () => {
 }
 
 export default Component;
+```
+
+### rcp - Create page
+
+```typescript
+import React from "react";
+
+const Page: React.FC = () => {
+  return <View></View>;
+};
+
+export default Page;
 ```
 
 ### fc - Function Syntax Component
