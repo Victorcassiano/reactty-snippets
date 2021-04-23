@@ -80,7 +80,7 @@ export default nameFunction;
 useEffect(() => {}, []);
 ```
 
-### `usf` - useState Hook
+### usf - useState Hook
 
 ```typescript
 const [state, setState] = useState();
