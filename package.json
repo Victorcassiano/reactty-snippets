@@ -1,8 +1,8 @@
 {
     "name": "reactty-snippets",
-    "displayName": "React snippets with Typescript",
+    "displayName": "Reactty Snippets",
     "description": "Simples snippets for react with typescript",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "ReactySnippets",
     "icon": "images/react-logo.png",
     "repository": {
