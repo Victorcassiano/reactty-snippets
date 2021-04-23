@@ -36,9 +36,9 @@
       "import React from 'react';",
       "const $1: React.FC = () => {",
       "\treturn (",
-      "<View>",
-      "</View>",
-      ");",
+      "\t\t<View>",
+      "\t\t</View>",
+      "\t);",
       "}",
       " ",
       "export default $1;"
