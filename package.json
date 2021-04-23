@@ -21,10 +21,17 @@
     "categories": [
         "Snippets"
     ],
+    "activationEvents": [
+      "onLanguage:typescript"
+  ],
     "contributes": {
         "snippets": [
             {
                 "language": "typescriptreact",
+                "path": "./snippets/snippets-ts.json"
+            },
+            {
+                "language": "typescript",
                 "path": "./snippets/snippets-ts.json"
             }
         ]
