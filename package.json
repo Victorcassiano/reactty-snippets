@@ -3,7 +3,7 @@
     "displayName": "React snippets with Typescript",
     "description": "Simples snippets for react with typescript",
     "version": "0.0.1",
-    "publisher": "Victorcassiano",
+    "publisher": "ReactySnippets",
     "icon": "images/react-logo.png",
     "repository": {
         "type": "git",
@@ -39,7 +39,7 @@
         "@types/mocha": "^2.2.32",
         "@types/node": "^6.0.40",
         "mocha": "^8.0.1",
-        "typescript": "^2.0.3",
+        "typescript": "^3.9.7",
         "vscode": "^1.0.0"
       }
 }
