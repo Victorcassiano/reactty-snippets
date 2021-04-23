@@ -1,0 +1,20 @@
+{
+    "name": "reactty-snippets",
+    "displayName": "reactty-snippets",
+    "description": "simples snippets for react with typescript",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}

@@ -1,0 +1,112 @@
+{
+  "Import React": {
+    "prefix": "imr",
+    "body": ["import React from 'react';"],
+    "description": "Import React"
+  },
+
+  "Import React and Component": {
+    "prefix": "imrn",
+    "body": [
+      "import React from 'react';",
+      "import {  } from 'react-native';"
+    ],
+    "description": "Import React end React-Native"
+  },
+
+  "Import React, { useState }": {
+    "prefix": "imrs",
+    "body": [
+      "import React, { useState } from 'react';"
+    ],
+    "description": "Import React, { useState }"
+  },
+
+  "Import React, { useState, useEffect }": {
+    "prefix": "imrse",
+    "body": [
+      "import React, { useState, useEffect } from 'react';"
+    ],
+    "description": "Import React, { useState, useEffect }"
+  },
+
+  "Import Pure Component": {
+    "prefix": "impc",
+    "body": [
+      "import React from 'react';",
+      "import { PureComponent } from 'react';"
+    ],
+    "description": "Import React, { PureComponent }"
+  },
+
+
+  "Function Component": {
+    "prefix": "fcwi",
+    "body": [
+      "export interface $1Props {",
+      "\t$2",
+      "}",
+      " ",
+      "const $1: React.FC<$1Props> = ($3) => {",
+      "\treturn ( $0 );",
+      "}",
+      " ",
+      "export default $1;"
+    ],
+    "description": "Function Component"
+  },
+
+  "Function Syntax Component": {
+    "prefix": "fc",
+    "body": [
+      "function $1($2) {",
+      "\treturn ( $0 );",
+      "}",
+      "",
+      "export default $1;"
+    ],
+    "description": "Function Syntax Component"
+  },
+
+  
+  "useEffect": {
+    "prefix": "uef",
+    "body": [
+      "useEffect(() => {",
+      "\t$1",
+      "}, []);"
+    ],
+    "description": "useEffect Hook"
+  },
+
+  "Declare a new state variable using State Hook": {
+    "prefix": "usf",
+    "body": [
+      "const [${1}, set${1/(.*)/${1:/capitalize}/}] = useState($2);"
+    ],
+    "description": "Declare a new state Variable using the State Hook. Hit Tab to apply CamelCase to function"
+  },
+
+   "Render Prop": {
+    "prefix": "rprop",
+    "body": [
+      "export interface $1Props {",
+      "\trender: (state: $1State) => JSX.Element",
+      "}",
+      " ",
+      "export interface $1State {",
+      "\t$2",
+      "}",
+      " ",
+      "class $1 extends React.Component<$1Props, $1State> {",
+      "\tstate = { $3: $4 }",
+      "\trender() { ",
+      "\t\treturn this.props.render(this.state);",
+      "\t}",
+      "}",
+      " ",
+      "export default $1;"
+    ],
+    "description": "Render Prop"
+  }
+}
