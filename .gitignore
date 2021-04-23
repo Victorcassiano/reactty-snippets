@@ -2,3 +2,4 @@ node_modules
 *.vsix
 yarn.lock
 out
+vss-extension.json

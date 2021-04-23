@@ -18,7 +18,7 @@ that work the way that you would expect, not just a copy of the documentation.
 | `imrn`  | Import React end React-Native         |
 | `imrs`  | Import React, { useState }            |
 | `imrse` | Import React, { useState, useEffect } |
-| `fcwi`  | Import React, { useState, useEffect } |
+| `fcwi`  | Function Component with Interface     |
 | `fc`    | Function Syntax Component             |
 | `uef`   | useEffect Hook                        |
 | `usf`   | useState Hook                         |
@@ -29,4 +29,59 @@ that work the way that you would expect, not just a copy of the documentation.
 
 ```typescript
 import React from "react";
+```
+
+### imrn - Import React end React-Native
+
+```typescript
+import React from "react";
+import {} from "react-native";
+```
+
+### imrs - Import React, { useState }
+
+```typescript
+import React, { useState } from "react";
+```
+
+### imrse - Import React, { useState, useEffect }
+
+```typescript
+import React, { useState, useEffect } from "react";
+```
+
+### fcwi - Function Component with Interface
+
+```typescript
+export interface ComponentProps {
+
+}
+
+const Component: React.FC<ComponentProps> = () => {
+    return (  );
+}
+
+export default Component;
+```
+
+### fc - Function Syntax Component
+
+```typescript
+function nameFunction() {
+    return (  );
+}
+
+export default nameFunction;
+```
+
+### uef - useEffect Hook
+
+```typescript
+useEffect(() => {}, []);
+```
+
+### `usf` - useState Hook
+
+```typescript
+const [state, setState] = useState();
 ```
