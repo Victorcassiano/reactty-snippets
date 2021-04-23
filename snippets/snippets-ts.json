@@ -34,7 +34,7 @@
     "prefix": "rcp",
     "body": [
       "import React from 'react';",
-      "const $1: React.FC = () => {",
+      "\nconst $1: React.FC = () => {",
       "\treturn (",
       "\t\t<View>",
       "\t\t</View>",
