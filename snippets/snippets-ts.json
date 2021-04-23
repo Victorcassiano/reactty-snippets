@@ -30,6 +30,22 @@
     "description": "Import React, { useState, useEffect }"
   },
 
+  "Create Page":{
+    "prefix": "rcp",
+    "body": [
+      "import React from 'react';",
+      "const $1: React.FC = () => {",
+      "\treturn (",
+      "<View>",
+      "</View>",
+      ");",
+      "}",
+      " ",
+      "export default $1;"
+    ],
+    "description": "Create page"
+  },
+
   "Function Component": {
     "prefix": "fcwi",
     "body": [
