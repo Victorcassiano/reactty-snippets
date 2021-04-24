@@ -71,7 +71,9 @@ export default Component;
 import React from "react";
 
 const Page: React.FC = () => {
-  return <View></View>;
+  return(
+    <View></View>
+  );
 };
 
 export default Page;
