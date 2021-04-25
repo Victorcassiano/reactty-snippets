@@ -3,3 +3,6 @@ node_modules
 yarn.lock
 out
 vss-extension.json
+.vscode-test
+build.bat
+src/test.ts
