@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.0.7] 2021-04-24
+
+### Added:
+
+- New Snippets
+
 ## [0.0.6] 2021-04-23
 
 ### Fixed:
