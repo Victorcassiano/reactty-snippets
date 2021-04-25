@@ -30,10 +30,58 @@
     "description": "Import React, { useState, useEffect }"
   },
 
-  "Create Page":{
+  "Create Page React":{
     "prefix": "rcp",
     "body": [
       "import React from 'react';",
+      "\nexport function $1(): void {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t</div>",
+      "\t);",
+      "}",
+      " "
+    ],
+    "description": "Create page for React"
+  },
+
+  "Create Page React-Native":{
+    "prefix": "crn",
+    "body": [
+      "import React from 'react';",
+      "import { View } from 'react-native';",
+      "\nexport function $1(): void {",
+      "\treturn (",
+      "\t\t<View>",
+      "\t\t</View>",
+      "\t);",
+      "}"
+    ],
+    "description": "Create page for React-Native"
+  },
+
+  "Create Page React Export Default":{
+    "prefix": "rcp-ex",
+    "body": [
+      "import React from 'react';",
+      "\nconst $1: React.FC = () => {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t</div>",
+      "\t);",
+      "}",
+      " ",
+      "export default $1;"
+    ],
+    "description": "Create page for React Export Default"
+  },
+
+  "Create Page React-Native Export Default":{
+    "prefix": "crn-ex",
+    "body": [
+      "import React from 'react';",
+      "import { View } from 'react-native';",
+
       "\nconst $1: React.FC = () => {",
       "\treturn (",
       "\t\t<View>",
@@ -43,27 +91,69 @@
       " ",
       "export default $1;"
     ],
-    "description": "Create page"
+    "description": "Create page for React-Native Export Default"
   },
 
-  "Function Component": {
-    "prefix": "fcwi",
+  "Create Page React-Native with StyleSheet":{
+    "prefix": "crn-sheet",
+    "body": [
+      "import React from 'react';",
+      "import { View, StyleSheet } from 'react-native';",
+      "\nconst $1: React.FC = () => {",
+      "\treturn (",
+      "\t\t<View>",
+      "\t\t</View>",
+      "\t);",
+      "}",
+      " ",
+      "const styles = StyleSheet.create({",
+      "\t$2: {",
+      "\t},",
+      ")}",
+      "\nexport default $1;"
+    ],
+    "description": "Create page for React-Native"
+  },
+
+  "Function Component with Interface end Export Default": {
+    "prefix": "cwi",
     "body": [
       "export interface $1Props {",
       "\t$2",
       "}",
       " ",
       "const $1: React.FC<$1Props> = ($3) => {",
-      "\treturn ( $0 );",
+      "\treturn ( );",
       "}",
       " ",
       "export default $1;"
     ],
-    "description": "Function Component with Interface"
+    "description": "Function Component with Interface end Export Default"
   },
 
-  "Function Syntax Component": {
+  "Create StyleSheet": {
+    "prefix": "sheet",
+    "body": [
+      "const styles = StylesSheet.create({",
+      "\t$1: {",
+      "\n\t}",
+      "})"
+    ],
+    "description": "Create StyleSheet"
+  },
+
+  "Function": {
     "prefix": "fc",
+    "body": [
+      "function $1($2): $3 {",
+      "\treturn ( );",
+      "}"
+    ],
+    "description": "Function"
+  },
+
+  "Function Export Default": {
+    "prefix": "fc-ex",
     "body": [
       "function $1($2) {",
       "\treturn ( $0 );",
@@ -71,7 +161,7 @@
       "",
       "export default $1;"
     ],
-    "description": "Function Syntax Component"
+    "description": "Function Export Default"
   },
 
   
