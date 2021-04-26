@@ -4,11 +4,9 @@ The essential collection of React Snippets and commands.
 
 ## Features
 
-Simply, simple React snippets.
-
-These snippets were selected carefully from my own day-to-day React use. Not
+These snippets were selected carefully from my own day-to-day React Native use. Not
 everything in React is included here. This is a hand selected set of snippets
-that work the way that you would expect, not just a copy of the documentation.
+that work the way that you would expect.
 
 ## Snippets
 
