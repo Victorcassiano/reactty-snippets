@@ -1,53 +1,53 @@
 {
-    "name": "reactty-snippets",
-    "displayName": "Reactty Snippets",
-    "description": "Simples snippets for react with typescript",
-    "version": "0.0.7",
-    "publisher": "ReactySnippets",
-    "icon": "images/reactty.png",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Victorcassiano/reactty-snippets.git"
-      },
-      "keywords": [
-        "React",
-        "React Native",
-        "React Snippets"
-      ],
-    "engines": {
-        "vscode": "^1.55.0"
-    },
-    "main": "./out/src/extension",
-    "categories": [
-        "Snippets"
-    ],
-    "activationEvents": [
-      "onLanguage:typescript"
+  "name": "reactty-snippets",
+  "displayName": "Reactty Snippets",
+  "description": "Simples snippets for react with typescript",
+  "version": "0.0.8",
+  "publisher": "ReactySnippets",
+  "icon": "images/reactty.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Victorcassiano/reactty-snippets.git"
+  },
+  "keywords": [
+    "React",
+    "React Native",
+    "React Snippets"
   ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "typescriptreact",
-                "path": "./snippets/snippets-ts.json"
-            },
-            {
-                "language": "typescript",
-                "path": "./snippets/snippets-ts.json"
-            }
-        ]
-    },
-    "scripts": {
-        "vscode:prepublish": "tsc -p ./",
-        "compile": "tsc -watch -p ./",
-        "vscode:build": "vsce package",
-        "postinstall": "node ./node_modules/vscode/bin/install",
-        "test": "node ./node_modules/vscode/bin/test"
+  "engines": {
+    "vscode": "^1.55.0"
+  },
+  "main": "./out/src/extension",
+  "categories": [
+    "Snippets"
+  ],
+  "activationEvents": [
+    "onLanguage:typescript"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets-ts.json"
       },
-      "devDependencies": {
-        "@types/mocha": "^2.2.32",
-        "@types/node": "^6.0.40",
-        "mocha": "^8.0.1",
-        "typescript": "^3.9.7",
-        "vscode": "^1.0.0"
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets-ts.json"
       }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "compile": "tsc -watch -p ./",
+    "vscode:build": "vsce package",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.32",
+    "@types/node": "^6.0.40",
+    "mocha": "^8.0.1",
+    "typescript": "^3.9.7",
+    "vscode": "^1.0.0"
+  }
 }
