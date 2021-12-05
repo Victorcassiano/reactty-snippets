@@ -1,19 +1,19 @@
 {
   "Import React": {
     "prefix": "imr",
-    "body": ["import React from 'react';"],
+    "body": [
+      "import React from 'react';"
+    ],
     "description": "Import React"
   },
-
   "Import React and Component": {
     "prefix": "imrn",
     "body": [
       "import React from 'react';",
       "import {  } from 'react-native';"
     ],
-    "description": "Import React end React-Native"
+    "description": "Import React and React-Native"
   },
-
   "Import React, { useState }": {
     "prefix": "imrs",
     "body": [
@@ -21,7 +21,6 @@
     ],
     "description": "Import React, { useState }"
   },
-
   "Import React, { useState, useEffect }": {
     "prefix": "imrse",
     "body": [
@@ -29,8 +28,7 @@
     ],
     "description": "Import React, { useState, useEffect }"
   },
-
-  "Create Page React":{
+  "Create Page React": {
     "prefix": "rcp",
     "body": [
       "import React from 'react';",
@@ -44,9 +42,8 @@
     ],
     "description": "Create page for React"
   },
-
-  "Create Page React-Native":{
-    "prefix": "crn",
+  "Create Page React-Native": {
+    "prefix": "cprn",
     "body": [
       "import React from 'react';",
       "import { View } from 'react-native';",
@@ -59,9 +56,8 @@
     ],
     "description": "Create page for React-Native"
   },
-
-  "Create Page React Export Default":{
-    "prefix": "rcp-ex",
+  "Create Page React Export Default": {
+    "prefix": "cpr-ex",
     "body": [
       "import React from 'react';",
       "\nconst $1: React.FC = () => {",
@@ -75,13 +71,11 @@
     ],
     "description": "Create page for React Export Default"
   },
-
-  "Create Page React-Native Export Default":{
-    "prefix": "crn-ex",
+  "Create Page React-Native Export Default": {
+    "prefix": "cprn-ex",
     "body": [
       "import React from 'react';",
       "import { View } from 'react-native';",
-
       "\nconst $1: React.FC = () => {",
       "\treturn (",
       "\t\t<View>",
@@ -93,28 +87,6 @@
     ],
     "description": "Create page for React-Native Export Default"
   },
-
-  "Create Page React-Native with StyleSheet":{
-    "prefix": "crn-sheet",
-    "body": [
-      "import React from 'react';",
-      "import { View, StyleSheet } from 'react-native';",
-      "\nconst $1: React.FC = () => {",
-      "\treturn (",
-      "\t\t<View>",
-      "\t\t</View>",
-      "\t);",
-      "}",
-      " ",
-      "const styles = StyleSheet.create({",
-      "\t$2: {",
-      "\t},",
-      ")}",
-      "\nexport default $1;"
-    ],
-    "description": "Create page for React-Native"
-  },
-
   "Function Component with Interface end Export Default": {
     "prefix": "cwi",
     "body": [
@@ -122,7 +94,7 @@
       "\t$2",
       "}",
       " ",
-      "const $1: React.FC<$1Props> = ($3) => {",
+      "const $1: React.FC<$1Props> = () => {",
       "\treturn ( );",
       "}",
       " ",
@@ -130,7 +102,6 @@
     ],
     "description": "Function Component with Interface end Export Default"
   },
-
   "Create StyleSheet": {
     "prefix": "sheet",
     "body": [
@@ -141,7 +112,6 @@
     ],
     "description": "Create StyleSheet"
   },
-
   "Function": {
     "prefix": "fc",
     "body": [
@@ -151,20 +121,15 @@
     ],
     "description": "Function"
   },
-
-  "Function Export Default": {
-    "prefix": "fc-ex",
+  "Async Function": {
+    "prefix": "fc-async",
     "body": [
-      "function $1($2) {",
-      "\treturn ( $0 );",
-      "}",
-      "",
-      "export default $1;"
+      "async function $1($2): Promise<$3> {",
+      "\treturn ( );",
+      "}"
     ],
-    "description": "Function Export Default"
+    "description": "Create async function"
   },
-
-  
   "useEffect": {
     "prefix": "uef",
     "body": [
@@ -174,7 +139,6 @@
     ],
     "description": "useEffect Hook"
   },
-
   "Declare a new state variable using State Hook": {
     "prefix": "usf",
     "body": [

@@ -10,17 +10,22 @@ that work the way that you would expect.
 
 ## Snippets
 
-| Snippet | Renders                               |
-| ------- | ------------------------------------- |
-| `imr`   | Import React                          |
-| `imrn`  | Import React end React-Native         |
-| `imrs`  | Import React, { useState }            |
-| `imrse` | Import React, { useState, useEffect } |
-| `fcwi`  | Function Component with Interface     |
-| `rcp`   | Create page                           |
-| `fc`    | Function Syntax Component             |
-| `uef`   | useEffect Hook                        |
-| `usf`   | useState Hook                         |
+| Snippet    | Renders                                              |
+| ---------- | ---------------------------------------------------- |
+| `imr`      | Import React                                         |
+| `imrn`     | Import React end React Native                        |
+| `imrs`     | Import React, { useState }                           |
+| `imrse`    | Import React, { useState, useEffect }                |
+| `rcp`      | Create page for React                                |
+| `cprn`     | Create page for React Native                         |
+| `cpr-ex`   | Create page for React with Export Default            |
+| `cprn-ex`  | Create page for React Native with Export Default     |
+| `cwi`      | Function Component with Interface end Export Default |
+| `sheet`    | Create StyleSheet                                    |
+| `fc`       | Function Syntax Component                            |
+| `fc-async` | Async Function Syntax Component                      |
+| `uef`      | useEffect Hook                                       |
+| `usf`      | useState Hook                                        |
 
 ## Full Expansions
 
@@ -70,8 +75,8 @@ import React from "react";
 
 const Page: React.FC = () => {
   return(
-    <View>
-    </View>
+    <div>
+    </div>
   );
 };
 
