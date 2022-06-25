@@ -6,3 +6,4 @@ vss-extension.json
 .vscode-test
 build.bat
 src/test.ts
+publish.txt
