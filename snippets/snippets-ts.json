@@ -1,31 +1,17 @@
 {
-  "Import React": {
-    "prefix": "imr",
-    "body": [
-      "import React from 'react';"
-    ],
-    "description": "Import React"
-  },
   "Import React and Component": {
     "prefix": "imrn",
-    "body": [
-      "import React from 'react';",
-      "import {  } from 'react-native';"
-    ],
+    "body": ["import React from 'react';", "import {  } from 'react-native';"],
     "description": "Import React and React-Native"
   },
   "Import React, { useState }": {
     "prefix": "imrs",
-    "body": [
-      "import React, { useState } from 'react';"
-    ],
+    "body": ["import React, { useState } from 'react';"],
     "description": "Import React, { useState }"
   },
   "Import React, { useState, useEffect }": {
     "prefix": "imrse",
-    "body": [
-      "import React, { useState, useEffect } from 'react';"
-    ],
+    "body": ["import React, { useState, useEffect } from 'react';"],
     "description": "Import React, { useState, useEffect }"
   },
   "Create Page React": {
@@ -102,64 +88,44 @@
     ],
     "description": "Function Component with Interface end Export Default"
   },
-  "Create StyleSheet": {
-    "prefix": "sheet",
-    "body": [
-      "const styles = StylesSheet.create({",
-      "\t$1: {",
-      "\n\t}",
-      "})"
-    ],
-    "description": "Create StyleSheet"
-  },
   "Function": {
     "prefix": "fc",
-    "body": [
-      "function $1($2): $3 {",
-      "\treturn ( );",
-      "}"
-    ],
+    "body": ["function $1($2): $3 {", "", "}"],
     "description": "Function"
   },
   "Async Function": {
     "prefix": "fc-async",
-    "body": [
-      "async function $1($2): Promise<$3> {",
-      "\treturn ( );",
-      "}"
-    ],
+    "body": ["async function $1($2): Promise<$3> {", "", "}"],
     "description": "Create async function"
   },
   "useEffect": {
     "prefix": "uef",
-    "body": [
-      "useEffect(() => {",
-      "\t$1",
-      "}, []);"
-    ],
+    "body": ["useEffect(() => {", "\t$1", "}, []);"],
     "description": "useEffect Hook"
   },
-  "Declare a new state variable using State Hook": {
-    "prefix": "usf",
-    "body": [
-      "const [${1}, set${1/(.*)/${1:/capitalize}/}] = useState($2);"
-    ],
-    "description": "Declare a new state Variable using the State Hook. Hit Tab to apply CamelCase to function"
+  "Arrow Function": {
+    "prefix": "arrowfc",
+    "body": ["const $1 => ($2): $3 {", "", "}"],
+    "description": "Arrow function"
   },
-  "Create styled-components": {
-    "prefix": "css-rn",
-    "body": [
-      "import styled from 'styled-components/native';",
-      "\nexport const Container = styled.View``;"
-    ],
-    "description": "Crete styled-components from React Native"
+  "Async Arrow Function": {
+    "prefix": "arrowfc-async",
+    "body": ["const $1 => async ($2): Promise<$3> = {", "", "}"],
+    "description": "Create async arrow function"
   },
-  "Create styled-components react": {
-    "prefix": "css",
+  "Create Page with arrow function": {
+    "prefix": "parrow-ex",
     "body": [
-      "import styled from 'styled-components';",
-      "\nexport const Container = styled.div``;"
+      "\nconst $1 = () => {",
+      "\treturn (",
+      "\t\t<>",
+      "\t\t\t<p>$1</p>",
+      "\t\t</>",
+      "\t);",
+      "}",
+      " ",
+      "export default $1"
     ],
-    "description": "Crete styled-components from React"
+    "description": "Create Page with arrow function"
   }
 }

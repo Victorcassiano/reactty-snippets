@@ -10,30 +10,25 @@ that work the way that you would expect.
 
 ## Snippets
 
-| Snippet    | Renders                                              |
-| ---------- | ---------------------------------------------------- |
-| `imr`      | Import React                                         |
-| `imrn`     | Import React end React Native                        |
-| `imrs`     | Import React, { useState }                           |
-| `imrse`    | Import React, { useState, useEffect }                |
-| `rcp`      | Create page for React                                |
-| `cprn`     | Create page for React Native                         |
-| `cpr-ex`   | Create page for React with Export Default            |
-| `cprn-ex`  | Create page for React Native with Export Default     |
-| `cwi`      | Function Component with Interface end Export Default |
-| `sheet`    | Create StyleSheet                                    |
-| `fc`       | Function Syntax Component                            |
-| `fc-async` | Async Function Syntax Component                      |
-| `uef`      | useEffect Hook                                       |
-| `usf`      | useState Hook                                        |
+| Snippet         | Renders                                              |
+| --------------- | ---------------------------------------------------- |
+| `imrn`          | Import React end React Native                        |
+| `imrs`          | Import React, { useState }                           |
+| `imrse`         | Import React, { useState, useEffect }                |
+| `rcp`           | Create page for React                                |
+| `cprn`          | Create page for React Native                         |
+| `cpr-ex`        | Create page for React with Export Default            |
+| `cprn-ex`       | Create page for React Native with Export Default     |
+| `cwi`           | Function Component with Interface end Export Default |
+| `fc`            | Function Syntax Component                            |
+| `fc-async`      | Async Function Syntax Component                      |
+| `uef`           | useEffect Hook                                       |
+| `usf`           | useState Hook                                        |
+| `arrowfc`       | Create Arrow function                                |
+| `arrowfc-async` | Create async arrow function                          |
+| `parrow-ex`     | Create Page with arrow function                      |
 
 ## Full Expansions
-
-### imr - Import React
-
-```typescript
-import React from "react";
-```
 
 ### imrn - Import React end React-Native
 
@@ -54,30 +49,13 @@ import React, { useState } from "react";
 import React, { useState, useEffect } from "react";
 ```
 
-### fcwi - Function Component with Interface
-
-```typescript
-export interface ComponentProps {
-
-}
-
-const Component: React.FC<ComponentProps> = () => {
-    return (  );
-}
-
-export default Component;
-```
-
 ### rcp - Create page
 
 ```typescript
 import React from "react";
 
 const Page: React.FC = () => {
-  return(
-    <div>
-    </div>
-  );
+  return <div></div>;
 };
 
 export default Page;

@@ -1,5 +1,9 @@
 # Change Log
 
+- Added new snippets to create arrow function pages or just create arrow functions
+
+## [1.1.0] 2024-07-23
+
 - Added snippet for styled-component
 
 ## [1.0.0] 2022-06-25
